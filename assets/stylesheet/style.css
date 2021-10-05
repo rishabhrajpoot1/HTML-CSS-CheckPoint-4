@@ -24,6 +24,10 @@ body {
 ol, ul {
 	list-style: none;
 }
+fieldset{
+    margin: 0;
+    padding: 0;
+}
 blockquote, q {
 	quotes: none;
 }
@@ -729,6 +733,10 @@ a:hover{
     display: flex;
     justify-content: flex-end;
 }
+.form-parent{
+    width: 100%;
+
+}
 /* footer-bottom */
 .copyright{
     background-color: white;
@@ -884,10 +892,9 @@ a:hover{
         margin-right: 4rem;
         margin-top: -11.2rem;
     }
-    .form{
-        margin-left: -1.8rem;
-        padding: 1rem;
-        width: min-content;
+    .form-parent{
+        padding: 0;
+        width: 100%;
     }
     .up-arrow{
         margin-right: 2rem;
